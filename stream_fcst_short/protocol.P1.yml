@@ -12,7 +12,7 @@ protocol:
       - Nextgen-based NWM default short-range configuration
       - Persistence forecast
     experimental_design:
-      spatial: Subset of CAMELS catchment that is forecast by RFC combined with additional RFC headwater catchments (up to 5 locations per RFC domain)
+      spatial: Subset of CAMELS catchment that is forecast by NOAA-RFCs
       study_period: "2017-2022"
       lead_times: [1, 2, 3, 4, 5, 6, 7]  # in days
       timestep:
